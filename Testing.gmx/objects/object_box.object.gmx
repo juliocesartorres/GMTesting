@@ -51,6 +51,7 @@ facing = FACE_RIGHT;
           <argument>
             <kind>1</kind>
             <string>
+move_wrap(true,true,sprite_width)
 
 if(keyboard_check(vk_left))
 {
