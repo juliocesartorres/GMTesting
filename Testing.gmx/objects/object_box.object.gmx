@@ -53,6 +53,11 @@ facing = FACE_RIGHT;
             <string>
 move_wrap(true,true,sprite_width)
 
+if(keyboard_check(vk_enter))
+{
+    visible = !visible
+}
+
 if(keyboard_check(vk_left))
 {
     facing = FACE_LEFT
